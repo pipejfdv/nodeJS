@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes de Unsplash</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <%- include('../includes/head') %>
+</head>
+<header>
+    <%- include('../includes/header') %>
+</header>
+<body class="bg-light text-center">
+
+    <div class="container-fluid py-4">
+        <h1 class="mb-4">Perfil</h1>
+        <div class="container mb-4">
+            <div class="row">
+                <div class="col col-md-4" style="border-right: 2px solid green;">
+                    <h2>
+                        Juan Felipe Delgadillo V.
+                    </h2>
+                    <h5>
+                        Software developer & Security Analist
+                    </h5>
+                </div>
+                <div class="col col-md-4">
+                    <img class="img" style="max-width: 100px; border-radius: 50%;" src="../public/img/mia.jpeg"/>
+                </div>
+                <div class="col col-md-4" style="border-left: 2px solid green;">
+                    <a href="www.linkedin.com/in/juanfelipedelgadillovanegas">www.linkedin.com/in/juanfelipedelgadillovanegas</a>
+                    <p>juampi_03_33@hotmail.com </p>
+                    <span>Bogota D.C. 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cursor" viewBox="0 0 16 16">
+                            <path d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52z"/>
+                          </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <section id="sobre mi">
+            <div class="container vstack gap-3">
+                <h3>Sobre mi</h3>
+                <p>Estudiante de desarrollador de software de sexto semestre de la Universidad de San Buenaventura, enfocado en el desarrollo web para páginas estáticas o dinámicas con arquitectura MVC, manejo de framework’s javaServerFaces, Boostrap, PrimeFaces y NIST. Cuento con conocimiento para gestión de bases de datos relacionales y consultas SQL. </p>
+            </div>
+        </section>
+        <section id="educacion">
+            <div class="container vstack gap-3">
+                <h3>Historial de Educación</h3>
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            <h5 class="titulosImportantes">Tecnólogo en Desarrollo de Software</h5>
+                            <span>Institución: Universidad de San Buenaventura</span>
+                            <h6 class="titulosImportantes">Cursando: 6 semestre</h6>
+                            <li>
+                                Proyecto TCE (rehabilitación cognitiva)
+                            </li>
+                        </div>
+                        <div>
+                            <h5 class="titulosImportantes">Ingles Basico - Intermedio</h5>
+                            <span>Institución: King's College London</span>
+                            <h6 class="titulosImportantes">Año completado: 2021</h6>
+                            <li>
+                                Curso virtual
+                            </li>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <h5 class="titulosImportantes">Ciberseguridad de Google</h5>
+                            <span>Institución: Coursera</span>
+                            <h6 class="titulosImportantes">Año completado: 2024</h6>
+                            <li>Marcos de la Ciberseguridad</li>
+                            <li>Gestión de riesgos de seguridad</li>
+                            <li>Redes y seguridad de redes</li>
+                            <li>Herramientas: Linux, Python y SQL</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

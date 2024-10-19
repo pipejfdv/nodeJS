@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/rick\ and\ morty\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+
+.card {
+    border-radius: 10px; 
+}
+
+.card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.modal-content {
+    background-image: url(../img/rick.jpg); 
+    background-size: cover;  
+    background-position: center; 
+    border-radius: 10px;
+    color: red; 
+    padding: 20px;
+}
+
+.modal-body {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 10px;
+    color: white; 
+}
+
+.titulosImportantes{
+    color: green;
+}
